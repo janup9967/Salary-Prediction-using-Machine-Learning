@@ -10,22 +10,45 @@ Problem Description , Literature Survey , Dataset Description , Exploratory data
 
 Algorithms : 
 
-Linear Regression , Polynomial Regression , Decision Tree 
+<div class="table-responsive-sm">
+  <table class="table", class="table table-sm table-dark">
 
-Conclusion : 
-
-1. Linear Regression: 
-
-Mean absolute error: 4753.740341419587  |||  Mean squared error: 33491976.48457026  |||  Root mean squared error: 5787.225283723648  |||  R2 Score: 0.9514303308376894
-
-2. Decision Tree Regressor: 
-
-Mean absolute error: 6317.583333333333  |||  Mean squared error: 49385228.541666664  |||  Root mean squared error: 7027.462453949268  |||  R2 Score: 0.9283821242117826
-
-3. Polynomial Regression: 
-
-Mean absolute error: 6607.2763311501085  |||  Mean squared error: 48809059.02376855  |||  Root mean squared error: 6986.348046280586  |||  R2 Score: 0.9292176784490374
-
+  <thead>
+    <tr>
+      <th scope="col">Evaluation Metrics</th>
+      <th scope="col">Linear Regression</th>
+      <th scope="col">Decision Tree Regressor</th>
+      <th scope="col">Polynomial Regression</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Mean absolute error</th>
+      <td>4753.740341419587</td>
+      <td>6317.583333333333</td>
+      <td>6607.2763311501085</td>
+    </tr>
+    <tr>
+      <th scope="row">Mean squared error</th>
+      <td>33491976.48457026r</td>
+      <td>49385228.541666664</td>
+      <td>48809059.02376855</td>
+    </tr>
+    <tr>
+      <th scope="row">Root mean squared error</th>
+      <td>5787.225283723648</td>
+      <td>7027.462453949268</td>
+      <td>6986.348046280586</td>
+    </tr>
+    <tr>
+      <th scope="row">R2 Scorer</th>
+      <td>0.9514303308376894</td>
+      <td> 0.9283821242117826</td>
+      <td>0.9292176784490374</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 ### Hence, we can easily say that our accuracy is maximum with Linear Regression Model i.e., 95.143 %.
 
